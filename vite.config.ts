@@ -13,13 +13,5 @@ export default defineConfig({
       "@containers": path.resolve(__dirname, "./src/containers"),
     },
   },
-  server: {
-    proxy: {
-      "/api": {
-        target: "http://195.133.39.82:8080", // URL вашего API
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""), // Удаляет "/api" из URL
-      },
-    },
-  },
+ 
 });
