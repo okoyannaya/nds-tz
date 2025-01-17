@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: #50505011;
+}
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  transition: 500ms;
+}

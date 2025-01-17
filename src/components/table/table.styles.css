@@ -1,0 +1,50 @@
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #424242;
+  border-collapse: collapse;
+}
+.table th {
+  font-weight: bold;
+  padding: 10px;
+  background: #efefef;
+  border: 1px solid #424242;
+  text-align: justify;
+}
+.table td {
+  border: 1px solid #424242;
+  padding: 10px 5px;
+}
+
+.archive_row{
+    background-color: #e9e9c5;
+}
+
+
+.btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.archive {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+.edite {
+  background-color: rgba(0, 255, 255, 0.3);
+}
+
+.restore {
+  background-color: rgba(172, 255, 47, 0.3);
+}
+
+.delete {
+  background-color: rgba(255, 68, 0, 0.3);
+}
