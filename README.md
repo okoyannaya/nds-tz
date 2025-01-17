@@ -1,5 +1,5 @@
 # Nds app
-[DEMO](https://app-todo-hp0w.onrender.com/)
+[DEMO]()
 
 ### Описание:
 <p>
