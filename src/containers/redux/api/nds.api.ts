@@ -1,11 +1,12 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
+import { BASE_URL } from "../constants";
 import { NdsItem } from "../types";
 
 export const ndsApi = createApi({
   reducerPath: "ndsApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://195.133.39.82:8080",
+    baseUrl: BASE_URL,
     prepareHeaders: (headers) => {
       headers.set(
         "Authorization",
